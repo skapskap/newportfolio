@@ -9,6 +9,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import linkedin from "./contact/linkedin.png";
+import githubcontact from "./contact/githubcontact.svg";
+import whatsapp from "./contact/whatsapp.svg";
+import instagram from "./contact/instagram.svg";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -27,10 +32,6 @@ import django from "./tech/django.png";
 import postgres from "./tech/postgres.png";
 import nextjs from "./tech/nextjs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import uff from "./company/uff.png";
 import codementor from "./company/codementor.png";
 import master from "./company/master.png";
@@ -51,6 +52,10 @@ export {
   github,
   menu,
   close,
+  linkedin,
+  githubcontact,
+  whatsapp,
+  instagram,
   css,
   docker,
   figma,
@@ -68,10 +73,6 @@ export {
   django,
   postgres,
   nextjs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   uff,
   codementor,
   master,
