@@ -185,16 +185,20 @@ const projects = [
       "Dynamic and user-friendly web application designed for users to store, manage, and share text snippets efficiently.",
     tags: [
       {
-        name: "Go Templates",
+        name: "Go",
         color: "blue-text-gradient",
       },
       {
-        name: "Go",
+        name: "Go Templates",
         color: "green-text-gradient",
       },
       {
         name: "PostgreSQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "orange-text-gradient",
       },
     ],
     image: snippaws,
@@ -224,19 +228,23 @@ const projects = [
   {
     name: "Alpha Squad",
     description:
-      "Project created with the main goal of managing all the members of CodeMentor. As a staff member, I collaborated in creating the main features of the project backend, including dockerizing it and creating the squads endpoints.",
+      "Project created with the main goal of managing all the members of CodeMentor. As a staff member, I collaborated in creating the main features of the project backend, including dockerizing it and coding the squads endpoints.",
     tags: [
       {
         name: "Django",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Django Rest Framework",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "PostgreSQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
       },
     ],
     image: alphasquad,
