@@ -12,9 +12,44 @@ const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_n5p8zcj",
+        "template_wh5fpf6",
+        {
+          from_name: form.name,
+          to_name: "Gabriel",
+          from_email: form.email,
+          to_email: "gcaldasl2000@gmail.com",
+          message: form.message,
+        },
+        "JOTDp90VNsRHc90Ns"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you! Your message has been sent. I will get back to you soon."
+          );
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong. Please try again later.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
