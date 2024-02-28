@@ -36,6 +36,7 @@ import codementor from "./company/codementor.png";
 import master from "./company/master.png";
 
 import harmony from "./harmony.png";
+import snippaws from "./snippaws.png";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   codementor,
   master,
   harmony,
+  snippaws,
 };

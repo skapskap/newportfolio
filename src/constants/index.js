@@ -24,6 +24,7 @@ import {
   django,
   postgres,
   nextjs,
+  snippaws,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +35,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -191,6 +196,27 @@ const projects = [
     ],
     image: harmony,
     source_code_link: "https://github.com/skapskap/harmony",
+  },
+  {
+    name: "Snippaws",
+    description:
+      "Dynamic and user-friendly web application designed for users to store, manage, and share text snippets efficiently.",
+    tags: [
+      {
+        name: "Go Templates",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Go",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: snippaws,
+    source_code_link: "https://github.com/skapskap/snippaws",
   },
 ];
 
