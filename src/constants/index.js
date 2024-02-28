@@ -19,12 +19,14 @@ import {
   uff,
   codementor,
   master,
-  harmony,
   python,
   django,
   postgres,
   nextjs,
+  harmony,
   snippaws,
+  bonapettite,
+  alphasquad,
 } from "../assets";
 
 export const navLinks = [
@@ -217,6 +219,48 @@ const projects = [
     ],
     image: snippaws,
     source_code_link: "https://github.com/skapskap/snippaws",
+  },
+  {
+    name: "Bonapettite",
+    description:
+      "Beautiful landing page made for Pizzaria Bonapettite, a restaurant located in the city of Itaboraí, Brazil.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bonapettite,
+    source_code_link: "https://github.com/skapskap/pizzaria-bonapettite",
+  },
+  {
+    name: "Alpha Squad",
+    description:
+      "Project created with the main goal of managing all the members of CodeMentor. As a staff member, I collaborated in creating the main features of the project backend, including dockerizing it and creating the squads endpoints.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django Rest Framework",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: alphasquad,
+    source_code_link: "",
   },
 ];
 

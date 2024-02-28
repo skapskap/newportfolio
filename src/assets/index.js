@@ -37,6 +37,8 @@ import master from "./company/master.png";
 
 import harmony from "./harmony.png";
 import snippaws from "./snippaws.png";
+import bonapettite from "./bonapettite.png";
+import alphasquad from "./alphasquad.png";
 
 export {
   logo,
@@ -75,4 +77,6 @@ export {
   master,
   harmony,
   snippaws,
+  bonapettite,
+  alphasquad,
 };
