@@ -1,8 +1,36 @@
-# React + Vite
+# 🏅 Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![skapskap](https://i.imgur.com/xSedzim.png)
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [React.js](https://reactjs.org)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer motion](https://www.framer.com/motion/)
+- [Threejs](https://threejs.org/)
+<br>
+
+## 🚀 Como executar
+Pré-requisitos: npm / yarn
+
+```bash
+# Clone este repositório
+git clone https://github.com/skapskap/newportfolio.git
+
+# Acesse a pasta do projeto no terminal/cmd
+cd newportfolio
+
+# Instale as dependências
+$ yarn
+# ou
+$ npm install
+
+# Execute o projeto
+$ yarn dev
+# ou
+$ npm run dev
+
+```
