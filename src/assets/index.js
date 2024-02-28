@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import frontend from "./frontend.png";
+import golang from "./golang.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -31,6 +33,8 @@ import harmony from "./harmony.png";
 export {
   logo,
   backend,
+  frontend,
+  golang,
   creator,
   mobile,
   web,

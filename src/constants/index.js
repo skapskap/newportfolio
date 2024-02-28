@@ -1,6 +1,8 @@
 import {
   backend,
   web,
+  frontend,
+  golang,
   javascript,
   typescript,
   html,
@@ -40,6 +42,14 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Frontend Developer",
+    icon: frontend,
+  },
+  {
+    title: "Golang Aficionado",
+    icon: golang,
   },
 ];
 
