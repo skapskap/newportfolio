@@ -170,16 +170,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial: "Testimony #1",
-    name: "Lalala",
-    designation: "Designation",
-    company: "Comapny",
-    image: "URL",
-  },
-];
-
 const projects = [
   {
     name: "Harmony",
@@ -200,8 +190,8 @@ const projects = [
       },
     ],
     image: harmony,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/skapskap/harmony",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
