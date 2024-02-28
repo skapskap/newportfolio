@@ -15,11 +15,15 @@ import {
   git,
   figma,
   docker,
+  go,
   uff,
   codementor,
   master,
   harmony,
-  threejs,
+  python,
+  django,
+  postgres,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -74,12 +78,28 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Go",
+    icon: go,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -94,8 +114,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
     name: "git",
