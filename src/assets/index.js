@@ -27,6 +27,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import uff from "./company/uff.png";
+import codementor from "./company/codementor.png";
+import master from "./company/master.png";
 
 import harmony from "./harmony.png";
 
@@ -58,5 +61,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  uff,
+  codementor,
+  master,
   harmony,
 };

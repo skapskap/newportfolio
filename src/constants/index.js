@@ -15,6 +15,9 @@ import {
   git,
   figma,
   docker,
+  uff,
+  codementor,
+  master,
   harmony,
   threejs,
 } from "../assets";
@@ -110,12 +113,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Experience #1",
-    company_name: "Company",
-    icon: "aaaa",
+    title: "IT Intern",
+    company_name: "Master School",
+    icon: master,
     iconBg: "#383E56",
-    date: "Date",
-    points: ["Points", "Points", "Points", "Points"],
+    date: "Jan 2017 - Oct 2017",
+    points: [
+      "Support for teachers in teaching the Office Suite (Word, Excel, Access) and Web Development (HTML, CSS, JavaScript)",
+      "Assistance to students outside of class hours for their school projects.",
+      "Listing absentees and calling them to record in the course system and on a manual spreadsheet.",
+    ],
+  },
+  {
+    title: "Teacher Assistant",
+    company_name: "UFF - Federal Fluminense University",
+    icon: uff,
+    iconBg: "#383E56",
+    date: "Jun 2021 - Jan 2022",
+    points: [
+      "Created flashcards in spaced repetition system to assist students’ studies using the Anki tool. Used CSS to change the structure and styling of the cards",
+      "Built the histological atlas in Wordpress for teaching and study aid for Veterinary Medicine students at UFF.",
+      "Presented my tutoring project talking about SRS and how it was applied to assist in the learning of histological tissues.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "CodeMentor",
+    icon: codementor,
+    iconBg: "#383E56",
+    date: "Ago 2023 - Current",
+    points: [
+      "Developed back-end applications (Restful APIs) using Django and Django REST Framework with integration to PostgreSQL database",
+      "Dockerized applications for easy development and deployment, wrote documentation to assist the front-end squad development",
+      "Actively participate in programming logic and technical challenges resolution of the team, using Github Projects and the Scrum framework for team organization.",
+    ],
   },
 ];
 
