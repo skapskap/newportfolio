@@ -40,6 +40,8 @@ import harmony from "./harmony.png";
 import snippaws from "./snippaws.png";
 import bonapettite from "./bonapettite.png";
 import alphasquad from "./alphasquad.png";
+import devhive from "./devhive.png";
+import setimavenida from "./setimavenida.png";
 
 export {
   logo,
@@ -80,4 +82,6 @@ export {
   snippaws,
   bonapettite,
   alphasquad,
+  devhive,
+  setimavenida,
 };

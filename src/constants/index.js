@@ -23,6 +23,8 @@ import {
   snippaws,
   bonapettite,
   alphasquad,
+  devhive,
+  setimavenida,
 } from "../assets";
 
 export const navLinks = [
@@ -58,7 +60,7 @@ const services = [
     icon: frontend,
   },
   {
-    title: "Golang Aficionado",
+    title: "Golang Enthusiast",
     icon: golang,
   },
 ];
@@ -158,6 +160,48 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "DevHive",
+    description:
+      "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: devhive,
+    source_code_link: "https://github.com/skapskap/devhive",
+  },
+  {
+    name: "Sétima Avenida",
+    description:
+      "Dynamic real estate app that simplifies the process of buying, renting, and selling properties. Users can effortlessly search for homes based on location, price, and features, while also having the ability to make inquiries directly through the app.",
+    tags: [
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "django templates",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PostgreSQL ",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: setimavenida,
+    source_code_link: "https://github.com/skapskap/SetimaAvenida",
+  },
   {
     name: "Harmony",
     description:
